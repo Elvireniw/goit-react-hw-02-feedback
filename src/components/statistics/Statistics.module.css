@@ -1,0 +1,46 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ======================   Statistic   =========================================== */
+.staticList {
+  padding: 12px;
+  max-width: 480px;
+  margin: 0 auto;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
+  background-color: #f1c1f0;
+}
+
+.descrStatistics {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #060606;
+  cursor: pointer;
+}
